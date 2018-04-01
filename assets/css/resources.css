@@ -138,6 +138,7 @@ hr {
 .lead {
     color: #333;
     margin: 20px 0 30px 0;
+    text-align: center;
 }
 
 .resource {
