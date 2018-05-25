@@ -27,7 +27,7 @@ $(document).ready(function(){
 	setTimeout(function() {
 		$('#loading').fadeOut();
 
-		$(".hero").fadeTo(600,1);
+		$(".hero").fadeTo(1000,1);
 
 		setTimeout(function()
 		{

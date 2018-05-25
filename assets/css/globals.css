@@ -1,3 +1,7 @@
+/*
+*    GLOBAL
+*/
+
 @font-face {
     font-family: KatanasEdge;
     src: url('../fonts/KatanasEdge.ttf');
@@ -33,6 +37,7 @@ body, .hero {
 
 body {
     min-width: 200px;
+    background-color: #fafafa;
 }
 
 a:hover {
@@ -40,7 +45,7 @@ a:hover {
 }
 
 .hero {
-    background: url("../img/hero.jpg") 50% 0 no-repeat fixed;
+    background: url("../img/hero.jpg") 50% 0 no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -141,6 +146,7 @@ hr {
 */
 
 footer {
+    width: 100%;
     background: #fafafa;
 }
 
