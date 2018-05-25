@@ -22,9 +22,8 @@ copyEmailBtn.addEventListener('click', function(event) {
 
 $("h2, h1, #nameUnderline, .logo").css("opacity", "0");
 
-$(document).ready(function(){
+$(window).on("load", function(){
 
-	setTimeout(function() {
 		$('#loading').fadeOut();
 
 		$(".hero").fadeTo(1000,1);
@@ -47,8 +46,6 @@ $(document).ready(function(){
 			$("#nameUnderline").css("opacity", "1");
 			$("#nameUnderline").addClass('animated bounceInUp');
 		} , 2000);
-		
-	}, 800);
 
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 200) {
