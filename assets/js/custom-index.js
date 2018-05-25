@@ -27,25 +27,28 @@ $(document).ready(function(){
 	setTimeout(function() {
 		$('#loading').fadeOut();
 
-		$(".hero").fadeTo(2000,1);
+		$(".hero").fadeTo(600,1);
 
 		setTimeout(function()
 		{
 			$(".logo").css("opacity", "1");
 			$(".logo").addClass('animated zoomIn');
 		} , 500);
+
 		setTimeout(function()
 		{
 			$("h2, h1").css("opacity", "1");
 			$("h2, h1").addClass('animated fadeInDown');
 
 		} , 1250);
+
 		setTimeout(function()
 		{
 			$("#nameUnderline").css("opacity", "1");
 			$("#nameUnderline").addClass('animated bounceInUp');
 		} , 2000);
-	}, 400);
+		
+	}, 800);
 
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 200) {
