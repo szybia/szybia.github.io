@@ -75,11 +75,31 @@ a:focus {
 }
 
 .carousel-item:nth-child(4) {
-    background-color: #231F1E;
+    background-color: #40407a;
 }
 
 .carousel-item:nth-child(5) {
     background-color: #12826c;
+}
+
+.carousel-item:nth-child(6) {
+    background-color: #1e3799;
+}
+
+.carousel-item:nth-child(7) {
+    background-color: #e58e26;
+}
+
+.carousel-item:nth-child(8) {
+    background-color: #b71540;
+}
+
+.carousel-item:nth-child(9) {
+    background-color: #78e08f;
+}
+
+.carousel-item:nth-child(10) {
+    background-color: #079992;
 }
 
 .carousel-tag {

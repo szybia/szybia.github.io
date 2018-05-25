@@ -46,6 +46,22 @@ h2 {
     padding-top: 10px;
 }
 
+.hero {
+    background: url("../img/hero.jpg") 50% 0 no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-repeat:no-repeat;
+    -moz-background-repeat:no-repeat;
+    -o-background-repeat:no-repeat;
+    background-repeat:no-repeat;
+    -webkit-background-position: center bottom;
+    -moz-background-position: center bottom;
+    -o-background-position: center bottom;
+    background-position: center bottom;
+}
+
 
 /*
 *    PERSONAL SECTION
