@@ -3,6 +3,15 @@
     src: url('../fonts/KatanasEdge.ttf');
 }
 
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('../img/loading.svg') no-repeat center center;
+    background-color: white;
+    z-index: 1000;
+}
+
 h1, h2, h3, h4, p {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
@@ -51,7 +60,7 @@ a:focus {
     color: white;
     min-height: 800px;
     min-width: 100%;
-    opacity: 100;
+    opacity: 0;
 }
 
 .navbar {
@@ -67,7 +76,11 @@ a:focus {
 }
 
 .navbar-toggler:focus {
-    outline-color: white;
+    outline: inherit;
+}
+
+.navbar-toggler:hover {
+    outline: 1px solid white;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -131,7 +144,11 @@ hr {
 
 .personal {
     padding: 70px 0;
-    background-color: #111111;
+    background-color: #1B2530;
+    /*1D2836*/
+    /*11171F*/
+    /*151D26*/
+    /*1B2530*/
 }
 
 .personal-headline {
