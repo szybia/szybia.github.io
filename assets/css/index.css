@@ -4,8 +4,6 @@ a:focus {
     outline:0;
 }
 
-
-
 .underline {
     height: 2px;
     margin: 0;
@@ -47,21 +45,25 @@ h2 {
 }
 
 .hero {
-    background: url("../img/hero.jpg") 50% 0 no-repeat fixed;
+    background: url("../img/hero.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-background-repeat:no-repeat;
-    -moz-background-repeat:no-repeat;
-    -o-background-repeat:no-repeat;
-    background-repeat:no-repeat;
-    -webkit-background-position: center bottom;
-    -moz-background-position: center bottom;
-    -o-background-position: center bottom;
-    background-position: center bottom;
-}
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
 
+}
 
 /*
 *    PERSONAL SECTION
@@ -69,11 +71,7 @@ h2 {
 
 .personal {
     padding: 70px 0;
-    background-color: #1B2530;
-    /*1D2836*/
-    /*11171F*/
-    /*151D26*/
-    /*1B2530*/
+    background-color: #020202;
 }
 
 .personal-headline {
@@ -101,7 +99,7 @@ h3 {
 
 .outline {
     border: 2px solid #eee;
-    background: rgba(0,0,0, 0.25);
+    background: rgba(0,0,0, 0.10);
 }
 
 h4 {

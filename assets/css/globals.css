@@ -12,7 +12,7 @@
     width: 100%;
     height: 100%;
     background: url('../img/loading.svg') no-repeat center center;
-    background-color: white;
+    background-color: #020202;
     z-index: 1000;
 }
 
@@ -37,7 +37,7 @@ body, .hero {
 
 body {
     min-width: 200px;
-    background-color: #fafafa;
+    background-color: #020202;
 }
 
 a:hover {
@@ -70,6 +70,10 @@ a:hover {
     left: 0;
     right: 0;
     padding: 16px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100);
 }
 
 .navbar-nav {
@@ -147,12 +151,12 @@ hr {
 
 footer {
     width: 100%;
-    background: #fafafa;
+    background: #020202;
 }
 
 .footer-name {
     display: inline-block;
-    color: #333;
+    color: white;
     padding: 20px 0 20px 0;
     font-family: KatanasEdge;
 }
@@ -162,11 +166,11 @@ footer {
     text-align: center;
     margin: 0 20px 0 0;
     padding: 0;
-    color: #333;
+    color: white;
 }
 
 .footer-copyright {
     font-size: 15px;
-    color: #333;
+    color: white;
     padding-top: 15px;
 }

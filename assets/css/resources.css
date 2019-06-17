@@ -4,9 +4,6 @@ a:focus {
     outline:0;
 }
 
-
-
-
 .hero {
 
     min-height: 200px;
@@ -57,7 +54,7 @@ a:focus {
 */
 
 .container {
-    background-color: #fafafa;
+    background-color: #020202;
 }
 
 #resources {
@@ -65,7 +62,7 @@ a:focus {
 }
 
 .lead {
-    color: #333;
+    color: white;
     margin: 20px 0 30px 0;
     text-align: center;
 }
@@ -74,13 +71,20 @@ a:focus {
     width: 48%;
     float: left;
     margin: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.25);
     padding: 20px;
 }
 
 .image-resource {
     width: 100%;
-    max-width: 290px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.unsplash {
+    filter: invert(100);
 }
 
 .resource h3 {
@@ -96,7 +100,7 @@ a:focus {
 }
 
 p, h3 {
-    color: #333;
+    color: white;
 }
 
 p {
@@ -119,19 +123,19 @@ h3.loadingio {
 
 @media screen and (min-width : 1200px) {
     .resource {
-        min-height: 415px;
+        min-height: 250px;
     }
 }
 
 @media screen and (min-width : 991px) and (max-width: 1199px) {
     .resource {
-        min-height: 445px;
+        min-height: 200px;
     }
 }
 
 @media screen and (max-width : 991px) {
     .resource {
-        min-height: 540px;
+        min-height: 200px;
     }
 
     .scrollToTopBtn {
