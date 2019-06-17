@@ -119,19 +119,19 @@ h3.loadingio {
 
 @media screen and (min-width : 1200px) {
     .resource {
-        min-height: 415px;
+        min-height: 250px;
     }
 }
 
 @media screen and (min-width : 991px) and (max-width: 1199px) {
     .resource {
-        min-height: 445px;
+        min-height: 200px;
     }
 }
 
 @media screen and (max-width : 991px) {
     .resource {
-        min-height: 540px;
+        min-height: 200px;
     }
 
     .scrollToTopBtn {
