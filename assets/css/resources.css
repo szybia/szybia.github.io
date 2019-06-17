@@ -77,7 +77,11 @@ a:focus {
 
 .image-resource {
     width: 100%;
-    max-width: 290px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
 
 .unsplash {
     filter: invert(100);
