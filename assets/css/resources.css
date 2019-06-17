@@ -78,6 +78,9 @@ a:focus {
 .image-resource {
     width: 100%;
     max-width: 290px;
+
+.unsplash {
+    filter: invert(100);
 }
 
 .resource h3 {
